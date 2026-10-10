@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apex-agentic-memory"
+version = "1.0.0"
+description = "Sovereign Cognitive Memory, Counterfactual Reflection & Fast-Reflex OS for Frontier AI Agents"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "AGPL-3.0"}
+authors = [
+    {name = "Ahmed Hassan", email = "aah@apex.local"}
+]
+keywords = [
+    "claude-mem",
+    "agent-memory",
+    "hindsight",
+    "cognee",
+    "nerve",
+    "cloudflare-clef",
+    "knowledge-graph",
+    "graph-rag",
+    "episodic-memory",
+    "reflex-engine",
+    "submodular-optimization",
+    "np-hard",
+    "hermes-agent",
+    "zero-dependency",
+    "nous-hermes",
+    "context-window"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: System :: Distributed Computing",
+    "License :: OSI Approved :: GNU Affero General Public License v3 (AGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+
+[project.scripts]
+agentic-memory = "apex_agentic_memory.cli:main"
